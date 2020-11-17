@@ -16,8 +16,8 @@ relationship = "Married"
 location = "Saint George, UT"
 occupation = "Student"
 age = 24
-male = True
-female = True
+male = False
+female = False
 
 #############################################################
 # str() => Convert to string
@@ -30,7 +30,7 @@ print("Age: " + str(age))
 if(male == True):
     print("Gender: Male")
 elif(male == False & female == False):
-    print("Prefer not to answer")
+    print("Gender: Prefer not to answer")
 elif(female == True):
     print("Gender: Female")
 else:
