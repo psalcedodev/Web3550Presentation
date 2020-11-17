@@ -35,6 +35,8 @@ elif(female == True):
     print("Gender: Female")
 else:
     print("Not specified")
-print("Relationship Status: " + relationship)
-print("Ocupation: " + occupation)
+
+#Activity
+#print("Relationship Status: " + relationship)
+#print("Ocupation: " + occupation)
 #############################################################
