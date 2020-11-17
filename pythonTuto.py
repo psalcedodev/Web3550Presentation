@@ -20,8 +20,8 @@ male = True
 female = True
 
 #############################################################
-# str()
-# int()
+# str() => Convert to string
+# int() => Convert to integer | number
 # if / elif / else
 print("My Facebook profile")
 print("Name: " + firstName+ " " + lastName)
