@@ -16,8 +16,8 @@ relationship = "Married"
 location = "Saint George, UT"
 occupation = "Student"
 age = 24
-male = False
-female = False
+male = True
+female = True
 pnta = True
 
 #############################################################
@@ -28,11 +28,11 @@ print("My Facebook profile")
 print("Name: " + firstName+ " " + lastName)
 print("Age: " + str(age))
 #if(male):
-if(male == True & female == False):
+if(male == True):
     print("Gender: Male")
 elif(male == False & female == False):
     print("Prefer not to answer")
-elif(male == False & female == True):
+elif(female == True):
     print("Gender: Female")
 else:
     print("Not specified")
