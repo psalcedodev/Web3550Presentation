@@ -16,7 +16,7 @@ relationship = "Married"
 location = "Saint George, UT"
 occupation = "Student"
 age = 24
-male = False
+male = True
 female = False
 
 #############################################################
