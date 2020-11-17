@@ -18,7 +18,6 @@ occupation = "Student"
 age = 24
 male = True
 female = True
-pnta = True
 
 #############################################################
 # str()
