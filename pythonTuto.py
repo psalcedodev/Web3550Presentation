@@ -17,7 +17,8 @@ location = "Saint George, UT"
 occupation = "Student"
 age = 24
 male = False
-female = True
+female = False
+pnta = True
 
 #############################################################
 # str()
@@ -26,10 +27,15 @@ female = True
 print("My Facebook profile")
 print("Name: " + firstName+ " " + lastName)
 print("Age: " + str(age))
-if(male == True):
+#if(male):
+if(male == True & female == False):
     print("Gender: Male")
-else:
+elif(male == False & female == False):
+    print("Prefer not to answer")
+elif(male == False & female == True):
     print("Gender: Female")
+else:
+    print("Not specified")
 print("Relationship Status: " + relationship)
 print("Ocupation: " + occupation)
 #############################################################
